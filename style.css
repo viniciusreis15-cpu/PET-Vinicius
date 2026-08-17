@@ -1,0 +1,25 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:" Roboto Slab" , sans-serif ;
+}
+
+li{
+   display: inline-block ;
+}
+nav{
+    display: inline-block ;
+}
+header{
+    margin: 10px 0px 144px 70px ;
+}
+a{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 20 0 0;
+    cursor: pointer;
+    color: ;
+}
