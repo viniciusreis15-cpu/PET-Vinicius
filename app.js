@@ -1,3 +1,4 @@
+
 // async ==> assicrono
 async function imagemApi(){
 // esperar a resposta  ==> await
