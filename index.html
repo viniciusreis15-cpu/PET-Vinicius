@@ -1,49 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Julio</title>
+    <title>Projeto VSCode</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header>
-        <div class="nome"><span class="n1">Pet</span><span class="n2">Neto</span></div>
-        <nav>
-            <ul>
-                <li><a href="index.html" link-menu">Home</a></li>
-                <li><a class="link-menu">Sobre</a></li>
-                <li><a href="serviços.html" class="link-menu">Serviços</a></li>
-                <li><a class="link-menu">Contato</a></li>
-            </ul>
-        </nav>
-        <button class="botao-login">Login</button>
+    <header>
+        <span id="logo">Nome App</span>
+        <a id="menu">Ajuda</a>
     </header>
-    <main>
-        <img src="./img/3f9e624eeae8f2679e076b3620c508e7.jpg" alt="logo-pet" class="logo">
-        <div class="texto">
-            <h1 class="titulo">NÓS CUIDAMOS</h1>
-            <h2 class="sub-titulo">Do Seu Pet</h2>
-            <p class="paragrafo"> Oferecemos todo o carinho e a dedicação que o seu melhor amigo merece. Cuidamos da
-                saúde e do bem-estar do seu pet
-                com profissionais qualificados e muito amor.</p>
-                <button class="botao-explore" onclick="imagemApi()">Explore</button>
+    <div id="app">
+        <main>
+            <h1>Frases Diárias</h1>
+            <p id="msg">Frase Inicial</p>
+            <button onclick="geradorMensagem()" id="gerar">Próxima Frase</button>
+        </main>
+        <nav>
+            <span><img src="img/share.svg"></span> <span><img src="img/house.svg"></span> <span><img
+                    src="img/heart.svg"></span> <span><img src="img/list.svg"></span>
+        </nav>
+    </div>
 
-    </main>
-    </div class=dogs-div>
-        <img src="" class="img-dog">
-        </div>
     <footer>
-        <p>&copy; 2026 Vinicius Reis.</p>
+        <p> &copy; 2026 Vinicius Dev. Todos os Direitos Reservados.</p>
     </footer>
-
-
-
     <script src="app.js"></script>
 </body>
 
